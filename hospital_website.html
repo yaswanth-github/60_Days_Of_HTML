@@ -8,7 +8,7 @@
     
         <div style="background-color:darkseagreen" class="promoHead" align="center">
             <p style="color:red;" class="has-text-centered">
-                "Consult Our Doctor On Video Call From Home."
+                "Consult Our Doctor On <big>Video Call</big> From Home."
                 <br class="is-hidden-tablet">
                 <a href="tel:01884323293" class="has-text-white">
                     "Dial"
@@ -37,7 +37,18 @@
            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Date : 23-02-2022&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Date : 
+            <label id="Date"></label>
+                <script>
+                date = new Date();
+                year = date.getFullYear();
+                month = date.getMonth() + 1;
+                day = date.getDate();
+                document.getElementById("Date").innerHTML = day + "/" + month+ "/" + year;
+                </script>
+            </div>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             
@@ -59,7 +70,7 @@
 
         <h3 align="center">
             <font color="#00502F" size="4">
-                Dr. William A. Abdu, M.D, M.S
+                Dr. William A. Abdu<sub>(M.D, M.S)</sub>
             </font>
         </h3>
 
@@ -68,14 +79,14 @@
             width="600"
             height="250"
         </center>
-        <div style="background-color:rgb(213, 250, 255)" align="center">
+    <div style="background-color:#d5faff8a" align="center">
         <h3 align="center">
             <font color="#202060" size="5">
                 MEDICAL APPOINTMENT FORM
             </font>
         </h3>
 
-        
+           
         <h4>
             <font color="#8a8a5c" size="5">
                 MAKE AN APPOINTMENT
@@ -122,10 +133,197 @@
             <input type="submit">
             
         </form>
+    <!--
+     <style>
+        div {
+          margin-bottom: 10px;
+        }
+        label {
+          display: inline-block;
+          width: 130px;
+        }
+        fieldset {
+          background: #e1eff2;
+        }
+        legend {
+          padding: 20px 0;
+          font-size: 30px;
+        }
+      </style>
+      <form>
+        <fieldset>
+          <legend>MAKE AN APPOINTMENT:</legend>
+          <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name">
+            <label for="age">Age:</label>
+            <input type="age" id="age">
+          </div>
+          <div>
+              <label for="gender">gender:</label>
+              <input type="radio" name="subject" value="male">Male
+              <input type="radio" name="subject" value="female">Female
+              <label for="date">Date:</label>
+              <input type="date" id="date">
+          </div>
+          <div>
+              <label for="blood group">Blood Group:</label>
+              <select name="dropdown">
+                <option>A+</option>
+                <option>O+</option>
+                <option>B+</option>
+                <option>AB+</option>
+                <option>A-</option>
+                <option>O-</option>
+                <option>B-</option>
+                <option>AB-</option>
+            </select>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="Phone number">Phone Number:</label>
+            <input type="number">
+          </div>
+          <div>
+              <label for="problem">Problems:</label>
+              <textarea rows="2" cols="50">
+
+              </textarea>
+          </div>
+          <div>
+              <label for="Address">Address:</label>
+              <textarea rows="2" cols="50" name="description">
+
+              </textarea>
+
+          </div>
+        </fieldset>
+      </form>
+    -->
 
     </div>
-        
 
+    <BR>
+
+   <div style="background-color:#ffffe6">
+    <h3 align="center">
+        <font color="#664400" size="4">
+           <big>TEST LIST</big>
+        </font>
+    </h3>
+    <table border="1" bordercolor="red">
+        <tr>
+            <td>TEST LIST - 1</td>
+            <td>
+                <table border="2" bordercolor="green">
+                    <tr>
+                        <th>Hb/Hct</th>
+                        <th>Hb POCT/Haematology analyser</th>
+                    </tr>
+                    <tr>
+                        <th>Complete blood count</th>
+                        <th>Haematology analyser</th>
+                    </tr>
+                    <tr>
+                        <th>Sickling</th>
+                        <th>Sodium metabisulphate</th>
+                    </tr>
+                    <tr>
+                        <th>Malaria</th>
+                        <th>Smear/RDT</th>
+                    </tr>
+                    <tr>
+                        <th>Urinalysis</th>
+                        <th>10P strips & microscopy</th>
+                    </tr>
+                    <tr>
+                        <th>Stool examination</th>
+                        <th>Microscopy</th>
+                    </tr>
+                    <tr>
+                        <th>Microbiology</th>
+                        <th>Gram staining & microscopy</th>
+                    </tr>
+                    <tr>
+                        <th>Glucose</th>
+                        <th>POCT Glucometer</th>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td> TEST LIST - 2 </td>
+            <td> 
+                <table border="2" bordercolor="green">
+                    <tr>
+                        <th>Typhoid</th>
+                        <th>IGM RDT/WIDAL</th>
+                    </tr>
+                    <tr>
+                        <th>HBV,HCV</th>
+                        <th>HBsAg,HCV Ab RDT</th>
+                    </tr>
+                    <tr>
+                        <th>Chemistries (RFT,LFT,Lipids,Electrolytes)</th>
+                        <th>Semi-automated analyser/POCT device      </th>
+                    </tr>
+                    <tr>
+                        <th>HIV</th>
+                        <th>HIV 1/2 Ab RDT</th>
+                    </tr>
+                    <tr>
+                        <th>CD4 Monitoring</th>
+                        <th>CD4 Analyser</th>
+                    </tr>
+                    <tr>
+                        <th>Cryptococci</th>
+                        <th>Ag RDT</th>
+                    </tr>
+                    <tr>
+                        <th>Tuberculosis (AFB)</th>
+                        <th>Smear Microscopy</th>
+                    </tr>
+                    <tr>
+                        <th>Tuberculosis (Molecular test)</th>
+                        <th>Referral</th>
+                    </tr>
+                    <tr>
+                        <th>Pregnancy</th>
+                        <th>HCG Strip</th>
+                    </tr>
+                    <tr>
+                        <th>Syphilis</th>
+                        <th>Rapid Plasma Reagin</th>
+                    </tr>
+                    <tr>
+                        <th>Blood Grouping</th>
+                        <th>Tile Method</th>
+                    </tr>                
+                </table>
+            </td>
+
+        </tr>
+    </table>
+  </div>
+  <br>
+  <br>
+  <div style="background-color:#c7fdc5d3">
+    <h3 align="center">
+        <font color="#b34700" size="4">
+           <big>FOOD MENU</big>
+        </font>
+
+    </h3>
+
+  </div
+ 
+
+
+ 
+ 
+  <br>
+    <div style="background-color:rgba(226, 218, 218, 0.301)" class="promoHead" align="center">
+        <marquee width="100%" direction="right" scrollamount="2" bgcolor="#ccffee">
+           <tt>Copyright © 2022. All right reserved</tt>    
+    </div>
 
     </body>
 </html>
