@@ -1,0 +1,144 @@
+<html>
+    <head>
+        <title>Hospital Task</title>
+    </head> <!-- head -->
+    
+    <body bgcolor="lightcyan" >
+        
+        <center>
+            <big>
+                <h1 title="Apollo">Rao Hospital</h1>
+            </big>
+        </center> <!-- title -->
+        
+        <center>
+            <marquee width="30%" direction="left" scrollamount="5" bgcolor="Red">
+                OPEN
+            </marquee>
+            <marquee width="100%" direction="left" scrollamount="4" bgcolor="Green">
+            Timings are from 8:00AM to 10:00PM (Excluding Holidays and Non-Working days)
+            </marquee>
+        </center> <!-- marquee -->
+        <div>
+            <h4 align="center">
+                Dr A G K Gokhale
+                Experience: 32 Yrs+
+                All types
+                MS, MCH, DNB, SMP, Dsc(Hons)
+
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            
+            <img src="https://www.infomediasearch.com/media/post/2017/10/14/rao-hospital-logo.jpg"/>
+
+
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+            
+            
+            <label id="Date"></label>
+                <script>
+                date = new Date();
+                year = date.getFullYear();
+                month = date.getMonth() + 1;
+                day = date.getDate();
+                document.getElementById("Date").innerHTML = day + "/" + month+ "/" + year;
+                </script>
+            </h1>
+        </div>
+        
+        <center>
+            <h1>Patient's Application Form</h1>
+        </center> <!-- Application form -->
+        
+        <form align="center">
+                First Name:<input type="text" name="Full Name"/> 
+                
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                
+                Last Name:<input type="text" name="Full Name"/>
+                <br><br>
+                Age:<input type="number" />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Sex:<input type="radio" name="subject" value="male">Male
+                    <input type="radio" name="subject" value="female">Female
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                BOD:<input type="date" />
+                <br><br>
+                Blood Group:<select name="dropdown">
+                                <option>A+</option>
+                                <option>O+</option>
+                                <option>B+</option>
+                                <option>AB+</option>
+                                <option>A-</option>
+                                <option>O-</option>
+                                <option>B-</option>
+                                <option>AB-</option>
+                            </select>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;            
+                PhoneNo:<input type="number"/>
+                <br><br>
+                Probelem Type:<input type="text" />
+                <br><br>
+                Relative Other Probelems: <br>
+                    <textarea rows="5" cols="50" name="description">
+                        Enter description here..
+                    </textarea>
+                <br><br>
+                Address : <br>
+                    <textarea rows="2" cols="50" name="description">
+                        Enter your Address here..
+                    </textarea>
+                <br><br>
+                <input type="reset">
+                <input type="submit">
+                
+                <br><br>
+            </form> <!-- form -->
+            
+        <center>
+            <table border="4" width="500" height="50" bordercolor="red" bgcolor="linen">
+                <tr><!-- for 1st row -->
+                    <th>Dr.Name</th>
+                    <th>Specialization</th>
+                </tr>
+                <tr><!-- for 1st row -->
+                    <td>Dr.Rao</td>
+                    <td>Surgery</td>
+                </tr>
+                <tr> <!-- for 2nd row -->
+                    <td>Dr.Naresh</td>
+                    <td>Immunology</td>
+                </tr>
+                <tr> <!-- for 3rd row -->
+                    <td>Dr.Srinuvas</td>
+                    <td>Infectious Diseases</td>
+                </tr>
+                <tr> <!-- for 4th row -->
+                    <td>Dr.Prasanna</td>
+                    <td>Anaesthesiology</td>
+                </tr>
+                <tr> <!-- for 5th row -->
+                    <td>Dr.Ramalingaseshu</td>
+                    <td>Virology</td>
+                </tr>
+                <tr> <!-- for 6th row -->
+                    <td>Dr.Prasad</td>
+                    <td>Communicative Diseases</td>
+                </tr>
+            </table> 
+            <p>Clink on the following link for going to Apollo main website</p>
+            <a href="https://www.apollohospitals.com/" target="new">ApolloHospitals</a>
+        </center>   <!-- website link -->         
+        
+    </body>
+</html>
