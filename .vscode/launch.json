@@ -1,6 +1,6 @@
 {
     "code-runner.executorMap": {
-        "html":"cd $dir && open -a 'Microsoft Edge' $fileName",
+        "html":"cd $dir && open -a 'Safari' $fileName",
         "javascript": "node",
         "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
         "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
