@@ -5,6 +5,7 @@
         <!--Start of CSS FILES -->
 
         <!--Start of loc and login icons-->
+
         <div>
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -72,53 +73,39 @@
 
         <!--Start of Split screeen-->
         <style>
-        /* Split the screen in half */
-        .split {
-            height: 100%;
-            width: 50%;
-            position: fixed;
-            z-index: 1;
-            top: 0;
-            overflow-x: hidden;
-            padding-top: 20px;
-        }
-        /* Control the left side */
-        .left {
-            left: 0;
-            background-color: #111;
-        }
-        /* Control the right side */
-        .right {
-            right: 0;
-            background-color: red;
-        }
-        
-        /* If you want the content centered horizontally and vertically */
-        .centered {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
+            .grid-container{
+                display: grid;
+            grid-template-columns:auto auto;
+            grid-template-rows: auto auto;
+            background-color:#5C5F58;
+            padding: 20px;
+            }
+            .grid-item {
+            background-color:#e1b382;
+            border: 1px solid black;
+            padding: 10px;
+            font-size: 19.3px;
             text-align: center;
-        }
+            }
         </style>
         <!--End of Split screeen-->
+
 
 
         <!-- End of CSS FILES -->
     </head>
 
 
-    <body>
+    <body bgcolor="#091f36">
          <!--Start Header-->
-    <table id="header" border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="#d7f28b">
+    <table id="header" border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="#A3BCB6">
         <tr>
             <td>
                 <table border="0" width="85%" cellpadding="15" cellspacing="0" align="center">
                     <tr>
                         <h1 align="center">
                             <img src ="https://www.pinpng.com/pngs/m/358-3581092_tata-logo-blue-hd-png-tata-group-underwent.png" alt="logo" style="width:40px" class="rounded-corners">
-                            <font face="lato" color="#00502F" size="6">
+                            <font face="lato" color="#2e3830" size="6">
                                 TATA Constructions
                             </font>
                         </h1>
@@ -168,27 +155,8 @@
             <img src="https://www.reminetwork.com/wp-content/uploads/construction-silhouette.jpg" alt="Construction" width="100%" height="100%">
     </div>
     <!--End of Iamge of Construction-->
-    <hr color="#013162">
 
-    <!-- <div>
-        <div class="split left">
-            <div class="centered">
-              <img src="img_avatar2.png" alt="Avatar woman">
-              <h2>Jane Flex</h2>
-              <p>Some text.</p>
-            </div>
-          </div>
-          
-          <div class="split right">
-            <div class="centered">
-              <img src="img_avatar.png" alt="Avatar man">
-              <h2>John Doe</h2>
-              <p>Some text here too.</p>
-            </div>
-          </div>
-    </div> -->
-
-    <div style="background-color:#c3c388" id="AboutUs" >
+    <!-- <div style="background-color:#c3c388" id="AboutUs" >
         
             <h1 align="center"> WHO WE ARE</h1>
             <h1 align="center">About Us</h1>
@@ -201,7 +169,7 @@
                 <ul type="disc">
                     <h3>Tata Constructions is the biggest construction company in the India.</h3> 
                 <h3>company specializes in construction, engineering, and project management.</h3>
-                <h3>Founded in 2022 by YJS Groups, the company headquarters are now in India-Punjab-Jalandhar.</h3>
+                <h3>Founded in 2021 by YJS Groups, the company headquarters are now in India-Punjab-Jalandhar.</h3>
                 <h3>Some of Tata`s construction projects include:</h3> 
                     <li>The Hoover Dam, Clark County, Nevada</li>
                     <li>London City Airport, London, England</li>
@@ -212,8 +180,8 @@
     </div>
 
     <div style="background-color:#b0e49e" id="Media">
-        <h1>Media</h1>
-        <h2>VIDEO OF CONSTRUCTION</h2>
+        <h1 align="center">Media</h1>
+        <h2 align="center">VIDEO OF CONSTRUCTION</h2>
         <iframe width="717" height="400" src="https://www.youtube.com/embed/vg4oh2-SA1w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 
         </iframe>
@@ -229,7 +197,61 @@
         
         
 
+    </div> -->
+
+
+    <div class="grid-container">
+        <font color="#023859">
+        <div class="grid-item" style="background-color:#B6C48E" id="AboutUs" >
+            
+            <h1 align="center"> WHO WE ARE</h1>
+            <h1 align="center">About Us</h1>
+            <hr color="#c3c388">
+            
+            <ul type="disc" align="left">
+                <h3>Tata Constructions is the biggest construction company in the India.</h3> 
+                <h3>company specializes in construction, engineering, and project management.</h3>
+                <h3>Founded in 2021 by YJS Groups, the company headquarters are now in India-Punjab-Jalandhar.</h3>
+                <li>TATA 2021 Total Revenue: $21.8 billion</li>
+                <li>Domestic Revenue: $15.89 billion</li>
+                <li>Stock Symbol: INR</li>
+                <h3>Some of Tata`s construction projects include:</h3> 
+                <ul type="disc">
+                    <li>The Hoover Dam, Clark County, Nevada</li>
+                    <li>London City Airport, London, England</li>
+                    <li>Sydney Metro, Sydney, Australia</li>
+                    <li>Crossrail, London, England</li>
+                    <li>Hummel Combined Cycle Power Plant, Shamokin Dam, Pennsylvania</li>
+                </ul>
+        </div>
+    </font>
+    
+    <font color="#B6C48E">
+        <div class="grid-item"style="background-color:#023859" id="Media">
+            <h1 align="center">Media</h1>
+            <h2 align="center">CONSTRUCTION VIDEOS</h2>
+            <iframe width="325" height="271" src="https://www.youtube.com/embed/vg4oh2-SA1w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    
+            </iframe>
+            <iframe width="325" height="271" src="https://www.youtube.com/embed/Kdwm77XPEhA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    
+            </iframe>
+            <iframe width="325" height="275" src="https://www.youtube.com/embed/8k038CkEO7A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    
+            </iframe>
+            <iframe width="325" height="275" src="https://www.youtube.com/embed/mdRvUgwQ__I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    
+            </iframe>
+        </div>
+    </font>
     </div>
+
+    <!-- <div style="background-color:#af9cf3" align="center" >
+        <h1> 
+            WHAT WE DO?  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  (HIGH WAYS),&nbsp;&nbsp;&nbsp;(BRIDGES),&nbsp;&nbsp;&nbsp;(DAMS),&nbsp;&nbsp;&nbsp;(INDUSTRIAL ASSEMBLAGE)
+        </h1>
+    </div>
+
     <hr>
 
 
@@ -240,7 +262,14 @@
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; WHAT WE DO?  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  (HIGH WAYS),&nbsp;&nbsp;&nbsp;(BRIDGES),&nbsp;&nbsp;&nbsp;(DAMS),&nbsp;&nbsp;&nbsp;(INDUSTRIAL ASSEMBLAGE)
         </marquee>
     </table>
+    </div> -->
+    <font color="#f2d53c">
+    <div class="grid-container">
+        <div class="grid-item">
+            <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WHAT WE DO? &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (HIGH WAYS),&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(BRIDGES),&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(DAMS),&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(INDUSTRIAL ASSEMBLAGE)&nbsp;&nbsp;&nbsp;&nbsp;</h2>
+        </div>
     </div>
+    </font>
 
 
 

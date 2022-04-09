@@ -1,0 +1,20 @@
+input[type=text]
+{
+width: 100%;
+padding: 15px 20px;
+border-radius:20px;
+border: 2px solid #FBB43F;
+}
+input[type=checkbox], input[type=radio]
+{
+height: 20px;
+width: 20px;
+}
+select, textarea {
+width: 100%;
+padding: 10px 30px;
+border: none;
+border-radius: 20px;
+background-color: #FBB43F;
+font-size:20px;
+font-family:cursive; }
