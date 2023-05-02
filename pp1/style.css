@@ -1,0 +1,30 @@
+/* CSS */
+
+body {
+background-color: #f2f2f2;
+}
+
+#root {
+width: 80%;
+margin: 0 auto;
+}
+
+.student-card {
+background-color: #fff;
+padding: 20px;
+box-shadow: 0px 0px 10px #ccc;
+margin-bottom: 20px;
+}
+
+.student-card img {
+width: 100%;
+}
+
+.student-card h3 {
+margin-top: 20px;
+}
+
+.student-card p {
+margin-top: 10px;
+font-size: 14px;
+}
